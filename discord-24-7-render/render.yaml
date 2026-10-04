@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: bot-vinted-iphone
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: GUILD_ID
+        sync: false
+      - key: INTERVAL_SECONDS
+        value: 60
+      - key: DEALS_ONLY
+        value: false

@@ -1,0 +1,16 @@
+{
+  "name": "discord-iphone-vinted-24-7",
+  "version": "1.0.0",
+  "description": "Bot Vinted iPhone -> Discord, 1 salon par iPhone, 24/7 gratuit (Render)",
+  "type": "module",
+  "scripts": {
+    "start": "node bot-pc.js",
+    "start-cloud": "node bot.js",
+    "setup": "node setup-server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^25.12.0"
+  }
+}
